@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.banner{
+    background-image: url('backroundimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99.1vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.banner h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10.7vh;
+    color: rgb(186, 45, 11);
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    padding-top: 10.7vh;
+}
+
+.banner h1 span{
+    font-family: cursive;
+    color: rgb(212, 23, 127);
+}
+
+.banner p{
+    font-family: 'Young Serif', serif;
+    color: #FFDC90;
+    text-shadow: 1.5px 1.5px black;
+    text-align: left;
+    margin-left: 6.45vh;
+    margin-bottom: 20px;
+}
+
+.banner a{
+    padding: 10px;
+    font-size: 2vh;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, #A24936, #BA2D0B);
+    opacity: 0.5;
+    font-family: 'Young Serif', serif;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s;
+    text-align: left;
+}
+
+.banner a:hover{
+    color: white;
+    background-image: linear-gradient(to bottom right, #A24936, #BA2D0B);
+    opacity: 1;
+    transition: 0.2s;
+
+}
